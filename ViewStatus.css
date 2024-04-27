@@ -1,0 +1,64 @@
+/* ViewStatus.css */
+
+/* General Styles */
+.view-status-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  h2, h3 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #1a73e8;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error and Message Styles */
+  p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Loading State */
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  

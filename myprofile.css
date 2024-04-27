@@ -1,0 +1,33 @@
+.table-container {
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set height to full viewport height */
+  }
+  
+  .tablestyle {
+    border-collapse: collapse;
+    width: 400px; /* Adjust width as needed */
+    border: 2px solid #ddd; /* Border style */
+  }
+  
+  .tablestyle td {
+    padding: 8px;
+    border: 1px solid #ddd; /* Border style */
+  }
+  
+  .firstcolumn {
+    font-weight: bold;
+  }
+  
+  .imgstyle {
+    max-width: 200px; /* Adjust maximum width of the image */
+    max-height: 200px; /* Adjust maximum height of the image */
+  }
+  .fullheight {
+    background-image: url("C:\Users\NITHISH\Downloads\auctionbg.jpg"); /* Set background image */
+    background-size: cover; /* Ensure the background image covers the entire element */
+    background-position: center; /* Center the background image */
+    height: 100vh; /* Set height to full viewport height */
+}
+

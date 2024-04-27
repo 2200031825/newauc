@@ -1,0 +1,58 @@
+/* BiddingItem.css */
+
+.bidding-item-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+  }
+  
+  .bidding-item-title {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Add some space below the title */
+    font-size: 24px; /* Larger font size */
+    color: #333; /* Dark text color */
+  }
+  
+  .bidding-item-table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* No space between table cells */
+  }
+  
+  .bidding-item-table th,
+  .bidding-item-table td {
+    padding: 10px; /* Padding for cells */
+    text-align: center; /* Center-align text in cells */
+    border: 1px solid #ddd; /* Light border for cells */
+  }
+  
+  .bidding-item-table th {
+    background-color: #f0f0f0; /* Light grey background for table headers */
+    font-weight: bold; /* Bold text for headers */
+  }
+  
+  .bidding-item-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate background color for even rows */
+  }
+  
+  .bidding-item-table tr:hover {
+    background-color: #ddd; /* Highlight the row on hover */
+  }
+  
+  .bidding-item-table input {
+    width: 80px; /* Set a fixed width for input fields */
+    text-align: center; /* Center-align the text in input fields */
+    border: 1px solid #ccc; /* Border for input fields */
+  }
+  
+  .bidding-item-table button {
+    padding: 5px 10px; /* Padding for buttons */
+    background-color: #28a745; /* Green background for buttons */
+    color: white; /* White text for buttons */
+    border: none; /* No border for buttons */
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor for buttons */
+  }
+  
+  .bidding-item-table button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  

@@ -1,0 +1,56 @@
+/* Style the container */
+.auction-container {
+    max-width: 600px;
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+  }
+  
+  /* Style the table */
+  .auction-table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse borders to remove spacing */
+  }
+  
+  /* Style table header */
+  .auction-table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black; /* Add border to th */
+  }
+  
+  /* Style table rows */
+  .auction-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .auction-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style table data */
+  .auction-table td {
+    padding: 8px;
+    border: 1px solid black; /* Add border to td */
+  }
+  
+  /* Style the title */
+  .auction-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Extra style to ensure proper alignment and prevent empty boxes */
+  .auction-table tr {
+    text-align: center; /* Ensure rows are centered */
+  }
+  
+  /* Adjust item image size */
+  .item-image {
+    max-width: 50px; /* Adjust as needed */
+    max-height: 50px; /* Adjust as needed */
+    object-fit: cover; /* Ensure the image fits the frame without distortion */
+  }
+  
